@@ -1,0 +1,39 @@
+.first-block{
+  background-color: rgb(164, 222, 255);
+}
+
+.second-block{
+  background-color: pink;
+}
+span{
+  color: rgb(110, 46, 170);
+}
+.first-block  span{
+  font-style: italic;
+}
+
+.first-block .block-number, .block-number2{
+  font-weight: bold;
+}
+
+.first-block .block-number{
+  background-color: rgb(113, 253, 131);
+}
+
+
+.second-block .block-number{
+  background-color: rgb(52, 200, 245);
+}
+
+.second-block .row-number{
+  background-color: rgb(153, 153, 147);
+}
+
+.second-block > p:nth-child(even) .row-number{
+  background-color: yellow;
+}
+
+.third-block > a:hover{
+  background-color: wheat;
+}
+  
